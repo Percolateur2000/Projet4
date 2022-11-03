@@ -300,20 +300,20 @@ a:hover {
     justify-content: center;
 }
 
-#bloc-4-portfolio .bloc-lg{
-    padding-bottom: 10px!important;
+#bloc-4-portfolio .bloc-lg {
+    padding-bottom: 10px !important;
 }
 
-#bloc-2-services .col-sm-12{
+#bloc-2-services .col-sm-12 {
     margin-bottom: 20px;
 }
 
 .col-sm-12 img {
-    width: 100px!important;
-    height: 100px!important;
+    width: 100px !important;
+    height: 100px !important;
 }
 
-.col-sm-6{
+.col-sm-6 {
     width: 50%;
     height: 50%;
 }
@@ -562,7 +562,8 @@ a[data-lightbox]:hover img {
 
 #lightbox-modal .modal-dialog img {
     max-height: 90vh;
-    margin: 0 auto;
+    margin: 0 auto 30px;
+    
 }
 
 .lightbox-caption {
@@ -655,6 +656,10 @@ a {
     font-size: 36px;
 }
 
+.modal-body p{
+    margin-top: 10px;
+}
+
 .statement-bloc-text {
     line-height: 26px;
     font-style: italic;
@@ -665,11 +670,13 @@ a {
     margin: auto auto auto auto;
 }
 
+
+
 p {
     font-size: 17px;
 }
 
-#bloc-8 li{
+#bloc-8 li {
     min-width: 60px;
     min-height: 60px;
 }
@@ -732,7 +739,7 @@ h4 {
     color: #FFFFFF !important;
 }
 
-.navbar-header img{
+.navbar-header img {
     height: 100px;
     width: auto;
 }
@@ -782,7 +789,7 @@ h4 {
 }
 
 .btn-atomic-tangerine:hover {
-    background:  #F3976C!important;
+    background: #F3976C !important;
     color: #FFFFFF !important;
 }
 
@@ -872,13 +879,13 @@ h4 {
 }
 
 #bloc-8 .row a {
-    color: white!important;
-    text-decoration: none!important;
+    color: white !important;
+    text-decoration: none !important;
 
 }
 
-#bloc-8 .row p{
-    color: #000000!important;
+#bloc-8 .row p {
+    color: #000000 !important;
     font-size: 18px;
 }
 
@@ -940,28 +947,31 @@ h4 {
         margin: 10px auto 0;
     }
 }
+
 @media (max-width: 767px) {
     .bloc-mob-center-text {
         text-align: center;
     }
 }
+
 @media (max-width: 400px) {
     .bloc {
         padding-left: 0;
         padding-right: 0;
     }
 }
+
 @media (max-width: 767px) {
 
-#bloc-3-what-i-do .bloc-lg{
-    padding-top: 0!important;
-    padding-bottom: 0!important;
-}
+    #bloc-3-what-i-do .bloc-lg {
+        padding-top: 0 !important;
+        padding-bottom: 0 !important;
+    }
 
-#bloc-4-portfolio .col-sm-6{
-    width: 95%;
-    height: 95%;
-}
+    #bloc-4-portfolio .col-sm-6 {
+        width: 95%;
+        height: 95%;
+    }
 
     .page-container {
         overflow-x: hidden;
@@ -1049,7 +1059,7 @@ h4 {
     }
 
     .navbar-brand img {
-        max-height: 45px;
+        max-height: 55px;
         width: 100%;
     }
 
@@ -1129,6 +1139,7 @@ h4 {
         height: 320px;
     }
 }
+
 @media (max-width: 992px) and (min-width: 768px) {
     .navbar .nav {
         max-width: 80%
