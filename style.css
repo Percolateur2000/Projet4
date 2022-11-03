@@ -270,7 +270,7 @@ a:hover {
 }
 
 .voffset-lg {
-    margin-top: 80px;
+    margin-top: 30px;
 }
 
 .row-no-gutters {
@@ -300,14 +300,22 @@ a:hover {
     justify-content: center;
 }
 
+#bloc-4-portfolio .bloc-lg{
+    padding-bottom: 10px!important;
+}
+
+#bloc-2-services .col-sm-12{
+    margin-bottom: 20px;
+}
+
 .col-sm-12 img {
     width: 100px!important;
     height: 100px!important;
 }
 
 .col-sm-6{
-    width: 95%;
-    height: 95%;
+    width: 50%;
+    height: 50%;
 }
 
 .col-sm-6 img {
@@ -950,6 +958,10 @@ h4 {
     padding-bottom: 0!important;
 }
 
+#bloc-4-portfolio .col-sm-6{
+    width: 95%;
+    height: 95%;
+}
 
     .page-container {
         overflow-x: hidden;
@@ -1037,7 +1049,7 @@ h4 {
     }
 
     .navbar-brand img {
-        max-height: 50px;
+        max-height: 45px;
         width: 100%;
     }
 
